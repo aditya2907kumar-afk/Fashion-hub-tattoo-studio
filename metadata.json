@@ -1,0 +1,6 @@
+{
+  "name": "Fashion Hub Tattoo Studio",
+  "description": "Handcrafted luxury tattoo and precision body piercing studio in Kankarbagh, Patna, Bihar. Established 2018.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

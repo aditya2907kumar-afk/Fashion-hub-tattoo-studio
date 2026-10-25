@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Fashion Hub Tattoo Studio | Kankarbagh, Patna</title>
+    <meta name="description" content="Handcrafted luxury tattoo and precision body piercing studio in Kankarbagh, Patna, Bihar. Established 2018." />
+    <meta property="og:title" content="Fashion Hub Tattoo Studio | Kankarbagh, Patna" />
+    <meta property="og:description" content="Handcrafted luxury tattoo and precision body piercing studio in Kankarbagh, Patna, Bihar. Established 2018." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      // Suppress benign WebSocket / HMR connection errors in preview environment
+      window.addEventListener('error', function(event) {
+        if (
+          event?.filename?.includes('@vite/client') ||
+          event?.message?.includes('WebSocket') ||
+          String(event?.error?.stack).includes('@vite/client')
+        ) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          return true;
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(event) {
+        if (
+          String(event?.reason?.stack).includes('@vite/client') ||
+          String(event?.reason).includes('WebSocket')
+        ) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      }, true);
+    </script>
+  </head>
+  <body class="bg-[#050B14] text-white selection:bg-[#D31E1E] selection:text-white antialiased overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

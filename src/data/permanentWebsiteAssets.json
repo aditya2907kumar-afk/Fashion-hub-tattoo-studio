@@ -1,0 +1,81 @@
+{
+  "isLocked": true,
+  "services": {
+    "custom-tattoo-design": "/uploads/service-custom-tattoo-design.jpg",
+    "sleeve-tattoos": "/uploads/service-sleeve-tattoos.jpg",
+    "tattoo-cover-ups-reworkings": "/uploads/service-tattoo-cover-ups-reworkings.jpg",
+    "large-scale-full-body": "/uploads/service-large-scale-full-body.jpg",
+    "traditional-asian-polynesian": "/uploads/service-traditional-asian-polynesian.jpg",
+    "custom-lettering-memorial": "/uploads/service-custom-lettering-memorial.jpg",
+    "tattoo-removal-permanent-makeup": "/uploads/service-tattoo-removal-permanent-makeup.jpg",
+    "tattoo-touch-ups-finishing": "/uploads/service-tattoo-touch-ups-finishing.jpg",
+    "industrial-cartilage-piercings": "/uploads/service-industrial-cartilage-piercings.jpg",
+    "conch-daith-rook-piercings": "/uploads/service-conch-daith-rook-piercings.jpg",
+    "lip-monroe-philtrum-labret": "/uploads/service-lip-monroe-philtrum-labret.jpg",
+    "septum-nose-piercings": "/uploads/service-septum-nose-piercings.jpg",
+    "navel-eyebrow-bridge-anchor": "/uploads/service-navel-eyebrow-bridge-anchor.jpg",
+    "tongue-smiley-webbing-cheek": "/uploads/service-tongue-smiley-webbing-cheek.jpg",
+    "tragus-anti-tragus-helix-snug": "/uploads/service-tragus-anti-tragus-helix-snug.jpg"
+  },
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Hospital-Grade Sterile Setup",
+      "category": "Studio Architecture",
+      "imageUrl": "/uploads/gallery-1.jpg",
+      "aspect": "aspect-square"
+    },
+    {
+      "id": "gal-2",
+      "title": "Hyper-Realism Sleeve Ink",
+      "category": "Custom Tattoo",
+      "imageUrl": "/uploads/gallery-2.jpg",
+      "aspect": "aspect-square"
+    },
+    {
+      "id": "gal-3",
+      "title": "Precision Ear Curation & Titanium",
+      "category": "Body Piercing",
+      "imageUrl": "/uploads/gallery-3.jpg",
+      "aspect": "aspect-square"
+    },
+    {
+      "id": "gal-4",
+      "title": "Dark Botanical Spine Script",
+      "category": "Fine-Line Art",
+      "imageUrl": "/uploads/gallery-4.jpg",
+      "aspect": "aspect-square"
+    },
+    {
+      "id": "gal-5",
+      "title": "Autoclave & Surgical Hygiene Station",
+      "category": "Sterilization Protocols",
+      "imageUrl": "/uploads/gallery-5.jpg",
+      "aspect": "aspect-square"
+    },
+    {
+      "id": "gal-6",
+      "title": "Polynesian Geometric Leg Piece",
+      "category": "Tribal Masterwork",
+      "imageUrl": "/uploads/gallery-6.jpg",
+      "aspect": "aspect-square"
+    },
+    {
+      "id": "gal-7",
+      "title": "Micro-Dermal Anchor Placement",
+      "category": "Body Modification",
+      "imageUrl": "/uploads/gallery-7.jpg",
+      "aspect": "aspect-square"
+    },
+    {
+      "id": "gal-8",
+      "title": "Botanical Floral Forearm Piece",
+      "category": "Artisanal Ink",
+      "imageUrl": "/uploads/gallery-8.jpg",
+      "aspect": "aspect-square"
+    }
+  ],
+  "specialistsBackground": "",
+  "websiteBackground": "/uploads/website-bg.jpg",
+  "lockedAt": "2026-10-25T05:00:00.000Z"
+}

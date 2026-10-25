@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-cinzel: "Cinzel", serif;
+
+  --color-obsidian: #050B14;
+  --color-botanical-dark: #091726;
+  --color-botanical-deep: #0D2137;
+  --color-sapphire: #162A4A;
+  --color-crimson: #D31E1E;
+  --color-crimson-hover: #B51616;
+  --color-silver-blue: #E2EDF8;
+  --color-silver-glow: #F0F6FC;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    overscroll-behavior-y: none;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #050B14;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-overflow-scrolling: touch;
+    text-rendering: optimizeLegibility;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  img {
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+
+  /* Silky smooth micro-interactions across all buttons and interactive controls */
+  button, a, input, select {
+    transition-property: color, background-color, border-color, box-shadow, transform, opacity;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    transition-duration: 250ms;
+  }
+}
+
+/* Hardware-Accelerated 60fps/120fps GPU Marquee */
+@keyframes marquee-rtl-continuous {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.animate-gallery-marquee {
+  animation: marquee-rtl-continuous 55s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.animate-reviews-marquee {
+  animation: marquee-rtl-continuous 90s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.animate-marquee-rtl-fast {
+  animation: marquee-rtl-continuous 28s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.animate-marquee-rtl-reviews {
+  animation: marquee-rtl-continuous 48s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+/* Pause marquee gracefully when user hovers to view or read */
+.marquee-container:hover .animate-gallery-marquee,
+.marquee-container:hover .animate-reviews-marquee {
+  animation-play-state: paused;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050B14;
+}
+::-webkit-scrollbar-thumb {
+  background: #162A4A;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D31E1E;
+}
